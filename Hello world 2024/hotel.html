@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotels in Riyadh</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      font-family: "Nunito", sans-serif;
+    }
+    .col:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .navbar {
+      background-color: #003366; /* Dark Blue */
+    }
+    .bg-footer {
+      background-color: #003366; /* Match Footer Color with Navbar */
+    }
+    .star-rating {
+      color: gold;
+    }
+    .card {
+      overflow: hidden; /* Prevent overflow */
+      margin-bottom: 1rem; /* Space between cards */
+    }
+    .card-body {
+      padding: 1rem; /* Adjust padding */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.jpg" class="rounded-circle" width="50" height="50" alt="Logo" />
+          <span class="text-white fw-bold">Hello World</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container mt4">
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="images/hotel1.jpg" class="img-fluid rounded-start" alt="Hotel 1" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Al Faisaliah Hotel</h5>
+              <p class="card-text">A luxurious hotel offering stunning views of the city, with world-class amenities and fine dining options.</p>
+              <div class="star-rating">★★★★☆</div>
+              <a href="#" class="btn btn-warning mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="images/hotel2.jpg" class="img-fluid rounded-start" alt="Hotel 2" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Riyadh Marriott Hotel</h5>
+              <p class="card-text">Located in the heart of Riyadh, this hotel offers modern rooms, excellent dining, and extensive meeting facilities.</p>
+              <div class="star-rating">★★★★★</div>
+              <a href="#" class="btn btn-warning mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="images/hotel3.jpg" class="img-fluid rounded-start" alt="Hotel 3" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Four Seasons Hotel Riyadh</h5>
+              <p class="card-text">An upscale hotel featuring luxurious accommodations, a spa, and a rooftop pool with breathtaking views.</p>
+              <div class="star-rating">★★★★☆</div>
+              <a href="#" class="btn btn-warning mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="images/hotel4.jpg" class="img-fluid rounded-start" alt="Hotel 4" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">InterContinental Riyadh</h5>
+              <p class="card-text">This hotel combines luxury and comfort, offering elegant rooms and a variety of dining options.</p>
+              <div class="star-rating">★★★☆☆</div>
+              <a href="#" class="btn btn-warning mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="images/hotel5.jpg" class="img-fluid rounded-start" alt="Hotel 5" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Hilton Riyadh Hotel & Residences</h5>
+              <p class="card-text">A modern hotel featuring spacious rooms, a business center, and a variety of recreational facilities.</p>
+              <div class="star-rating">★★★★★</div>
+              <a href="#" class="btn btn-warning mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="images/hotel6.jpg" class="img-fluid rounded-start" alt="Hotel 6" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Radisson Blu Hotel, Riyadh</h5>
+              <p class="card-text">An elegant hotel with contemporary design, offering excellent dining and a relaxing spa experience.</p>
+              <div class="star-rating">★★★★☆</div>
+              <a href="#" class="btn btn-warning mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="images/hotel7.jpg" class="img-fluid rounded-start" alt="Hotel 7" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Sheraton Riyadh Hotel & Towers</h5>
+              <p class="card-text">This hotel features luxurious accommodations and is well-known for its exceptional service and dining options.</p>
+              <div class="star-rating">★★★☆☆</div>
+              <a href="#" class="btn btn-warning mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="images/hotel8.jpg" class="img-fluid rounded-start" alt="Hotel 8" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Taj Hotel Riyadh</h5>
+              <p class="card-text">A luxury hotel that combines traditional hospitality with modern amenities, located in a prime area of Riyadh.</p>
+              <div class="star-rating">★★★★★</div>
+              <a href="#" class="btn btn-warning mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-footer p-3 text-center text-white">
+    <p>Developed by Yara</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
